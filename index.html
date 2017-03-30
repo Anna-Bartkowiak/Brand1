@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="Brand1">
+		<meta name="description" content="Brand1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Brand1</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">BRAND</a>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">Profile</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" id="dropdownMenu1" aria-haspopup="true" aria-expanded="false">Dropdown<span class="caret"></span></a>
+							<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+							</ul>
+						</li>
+					</ul>
+
+					<form class="navbar-form navbar-right" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default">Submit</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+
+		<div class="jumbotron">
+			<div class="container">
+				<p class="text-center">Lorem ipsum dolor sit amet, alterum nostrum percipitur sed ut, vel liber aeterno delicatissimi eu. An utamur labitur ius. Justo numquam officiis eu per, vis ad tale aperiam tamquam.</p>
+				<h1>Lorem ipsum<br><small>Nullam eros</small></h1>
+				<button class="btn btn-success center-block">Submit</button>
+			</div>
+		</div>
+		
+		<div class="container">
+			<ul class="nav nav-tabs nav-justified">
+				<li class="active"><a href="#home">Home</a></li>
+				<li><a data-toggle="tab" href="#first">First</a></li>
+				<li><a data-toggle="tab" href="#second">Second</a></li>
+				<li><a data-toggle="tab" href="#third">Third</a></li>
+			</ul>
+			
+			<div class="tab-content">
+				<div id="home" class="tab-pane fade in active">
+					<h3>HOME</h3>
+					<p>Lorem ipsum dolor sit amet dolor. Pellentesque tincidunt quis, accumsan orci. Sed dignissim turpis. Donec nisl auctor ligula. Nam scelerisque mauris sit amet, sodales eros. Suspendisse bibendum mauris sit amet dui vel risus. Nullam vitae massa vulputate faucibus. Aliquam id.</p>
+				</div>
+				
+				<div id="first" class="tab-pane fade">
+					<h3>Nulla</h3>
+					<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Etiam sit amet mauris. Nunc semper, nisl eu nisl dui ut nisl. Sed nec velit. Mauris et netus et nisl eu mi. Suspendisse adipiscing. Mauris ornare velit..</p>
+				</div>
+				
+				<div id="second" class="tab-pane fade">
+					<h3>Proin</h3>
+					<p>Donec nec pede. Cras consectetuer nisl. Nulla massa. Nunc volutpat quis, placerat vehicula dignissim. Aliquam fringilla, massa. Pellentesque placerat. Curabitur gravida sodales. Vivamus euismod. Integer aliquam. Etiam tempor magna. Fusce facilisis eget, neque. Etiam lobortis magna hendrerit sollicitudin eu, odio.</p>
+				</div>
+				
+				<div id="third" class="tab-pane fade">
+					<h3>Phasellus</h3>
+					<p>Vivamus vel nibh. Ut eu sem dolor sit amet, consectetuer elit. Pellentesque euismod, quam elit tincidunt tempus. Pellentesque habitant morbi tristique magna. Integer auctor auctor quis, ornare a, laoreet commodo, volutpat eu, faucibus orci eget elit ultricies pretium. Vestibulum vestibulum.</p>
+				</div>
+			</div>
+		</div>
+			
+		<div class="container">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>
+
+				<div class="carousel-inner" role="listbox">
+					<div class="item active example-1"></div>
+					<div class="item example-2"></div>
+					<div class="item example-3"></div>
+					<div class="item example-4"></div>
+				</div>
+
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+		
+		<div class="container">
+				
+		</div>
+
+		<div class="container">
+			<div class="media">
+				<div class="media-left">
+					<a href="#"><img class="media-object" src="http://placehold.it/100x100" alt=""></a>
+				</div>
+
+				<div class="media-body one">
+					<h5>Lorem ipsum dolor sit.</h5>
+					<p>Proin venenatis arcu. In pharetra. Suspendisse rhoncus tempor. Suspendisse eu dui aliquam eget, cursus a, gravida wisi at.</p>
+				</div>
+			</div>
+
+			<div class="media">
+				<div class="media-body two">
+					<h5>Lorem ipsum dolor sit.</h5>
+					<p>Proin venenatis arcu. In pharetra. Suspendisse rhoncus tempor. Suspendisse eu dui aliquam eget, cursus a, gravida wisi at.</p>
+				</div>
+
+				<div class="media-right">
+					<a href="#"><img class="media-object" src="http://placehold.it/100x100" alt=""></a>
+				</div>
+			</div>
+
+			<div class="media">
+				<div class="media-left">
+					<a href="#"><img class="media-object" src="http://placehold.it/100x100" alt=""></a>
+				</div>
+
+				<div class="media-body one">
+					<h5>Lorem ipsum dolor sit.</h5>
+					<p>Proin venenatis arcu. In pharetra. Suspendisse rhoncus tempor. Suspendisse eu dui aliquam eget, cursus a, gravida wisi at.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<form class="form">
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" class="form-control" id="email" placeholder="Email">
+				</div>
+
+				<div class="form-group">
+					<label for="hasło">Hasło:</label>
+					<input type="password" class="form-control" id="hasło" placeholder="Hasło">
+				</div>
+
+				<div class="form-group">
+					<button type="submit" class="btn btn-info">Wyślij</button>
+				</div>
+
+				<div class="form-group">
+					<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+				</div>
+			</form>
+		</div>
+		
+		<div class="container">
+			<button type="button" class="btn btn-info btn" data-toggle="collapse" data-target="#demo">Button</button>
+			
+			<div id="demo" class="collapse">Morbi id tortor pede dictum velit, condimentum wisi. Phasellus a lacus. Quisque rutrum, est sem, lobortis elit. Sed dignissim turpis. Pellentesque aliquam purus. Proin consectetuer ut, ligula. Aliquam in accumsan eu, nisl. Proin id eleifend pede ac purus. Phasellus orci ipsum, ultricies est. Lorem ipsum dolor libero quis risus. Donec condimentum nunc. Suspendisse eu nulla luctus aliquam, nulla in orci.
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<p class="text-center">@ Anna Bartkowiak 2016</p>
+			</div>
+		</footer>
+	</body>
+</html>
