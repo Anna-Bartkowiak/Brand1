@@ -42,7 +42,7 @@ body {
 
 .jumbotron p,
 .jumbotron h1 {
-	color: white;
+	color: #252626;
 }
 
 .jumbotron h1 {
@@ -59,12 +59,6 @@ h2 {
 	text-align: center;
 	margin-bottom: 30px;
 }
-
-/*.social_media {
-	position: fixed;
-	top: 100px;
-	right: 0;
-}*/
 
 .social_media button {
 	display: block;
@@ -316,8 +310,4 @@ footer .col-m-12 > p {
 	.media {
 		font-size: 0.8em;
 	}
-
-	/*.gallery img {
-	margin: 20px auto;
-	}*/
 }
